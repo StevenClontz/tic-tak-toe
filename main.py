@@ -8,7 +8,7 @@ def board(m):
     b = set()
     for x in range(N):
         for y in range(N):
-            n = x+3*y
+            n = x+N*y
             # stackoverflow.com/questions/49079440
             if ((m & (1 << n)) >> n)==1:
                 b.add( (x,y) )
