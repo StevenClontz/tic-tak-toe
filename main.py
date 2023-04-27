@@ -1,5 +1,5 @@
 import sys
-from __init__ import *
+from lib import *
 
 if __name__ == "__main__":
     N = int(sys.argv[1])
